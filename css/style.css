@@ -1,3 +1,150 @@
-h1{
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url(/images/gateimage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    width: 100%;
+    height: 15vh;
+    background-color:rgba(0,0,0,0.1);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+}
+.logo{
+    width:25%;
+    text-align: center;
+    color:White;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px;
+}
+.menu{
+    width: 40%;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu a{
+    width: 25%;
+  text-decoration: none;
+  color: blanchedalmond;  
+font-weight: bold;
+
+}
+nav .menu a{
+    color: whitesmoke;
+}
+.change_some:after{
+
+    content: '';
+    animation:  changetext 10s infinite linear;
+    color:deepskyblue;
+}
+@keyframes changetext{ 
+    10%{content: "Maharashtra"; }
+   20%{content:"Mumbai" }
+   30%{content:"Jammu & Kashmir"}
+   40%{content:"Andhra Pradesh"}
+   50%{content:"Delhi"}
+   60%{content:"Gujarat"}
+   70%{content: "Rajasthan";}
+   80% {content: "Kerala";}
+   90% {content:"Karnataka"}
+   100%{content:"Darjeeling"}
+
+}
+
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    color: white;
+}
+section{
+
+}
+section h3{
+    font-size: 50px;
+    font-weight: 200px;
+    letter-spacing: 3px;
+
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size: 55px;
+    text-shadow: 1px 1px 7px red;
+    text-transform: uppercase;
+}
+section p{
+
+    color:white;
+    word-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 1px black;
+}
+section a{
+    padding: 12px 30px ;
+    border-radius: 4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 25px;
+
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition:all 0.3s ease;
+    }
+
+.butnone{
+background-color:white;
+color: black;    
+
+}
+.butnone:hover{
+    background-color:deepskyblue;
+
+}
+
+.butntwo{
+    background-color:deepskyblue;
+    color: black;
+}
+.butntwo:hover{
     background-color: aqua;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
