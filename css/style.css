@@ -3,8 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     font-family: sans-serif;
-
-
+    
 }
 header{
     width: 100%;
@@ -26,16 +25,16 @@ nav{
 .logo{
     width:25%;
     text-align: center;
-    color:White;
+    color:red;
     font-size: 25px;
-    text-shadow: 1px 1px 2px;
+    text-shadow: 2px 5px 5px black ;
 }
 .menu{
     width: 40%;
     font-size: 25px;
     display: flex;
     justify-content: space-around;
-    
+        
 }
 
 .menu a{
@@ -47,12 +46,21 @@ font-weight: bold;
 }
 nav .menu a{
     color: whitesmoke;
+    padding: 5px;
+border: 1px solid black;
+display: block;
+
 }
+
+.menu:hover>a{
+    background-color: skyblue;
+}
+
 .change_some:after{
 
     content: '';
     animation:  changetext 10s infinite linear;
-    color:deepskyblue;
+    color:whitesmoke
 }
 @keyframes changetext{ 
     10%{content: "Maharashtra"; }
@@ -83,7 +91,7 @@ section h3{
     font-size: 50px;
     font-weight: 200px;
     letter-spacing: 3px;
-
+   color:skyblue;
 }
 section h1{
     margin: 30px 0 20px 0;
